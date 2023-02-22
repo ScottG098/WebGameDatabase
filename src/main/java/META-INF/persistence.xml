@@ -3,6 +3,8 @@
 	<persistence-unit name="WebGameDatabase" transaction-type="RESOURCE_LOCAL">
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 		<class>model.GameListItem</class>
+		<class>model.Player</class>
+		<class>model.GameDetails</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/games"/>

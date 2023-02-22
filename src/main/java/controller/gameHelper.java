@@ -8,6 +8,7 @@ import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
 import model.GameListItem;
+import model.Player;
 
 /**
  * @author Scott Grigsby-sdgrigsby
